@@ -1,0 +1,1 @@
+{"level":"error","message":"Error connecting to MongoDB: database names cannot contain the character '.'"}
