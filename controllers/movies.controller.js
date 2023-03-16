@@ -4,6 +4,7 @@ const logger = require("../logger");
 const getMovies = async (req,res) => {
     try {
         const {page = 1, limit = 10, search} = req.query;
+        console.log({page, limit});
 
         const query = { };
 
